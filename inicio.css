@@ -1,0 +1,466 @@
+/* Estilos generales del documento */
+body {
+    font-family: Arial, sans-serif; /* Fuente predeterminada para todo el documento */
+    margin: 0; /* Sin margen en el cuerpo del documento */
+    padding: 0; /* Sin relleno en el cuerpo del documento */
+    background-color: #f0f0f0; /* Color de fondo para todo el cuerpo del documento */
+}
+
+/* Estilos del contenedor principal */
+.contenedor {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Relleno dentro del contenedor */
+}
+
+/* Estilos para encabezados h1 */
+h1 {
+    color: #1f4287; /* Color del texto para encabezados h1 */
+}
+
+/* Estilos para párrafos */
+p {
+    color: #333; /* Color del texto para párrafos */
+}
+
+/* Estilos para la clase .nba */
+.nba {
+    text-align: center; /* Alinea el texto al centro */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para tablas */
+table {
+    width: 100%; /* Ancho completo de la tabla */
+    border-collapse: collapse; /* Colapsa los bordes de la tabla */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para encabezados de tabla y celdas de tabla */
+th, td {
+    padding: 10px; /* Relleno interno */
+    text-align: left; /* Alineación del texto a la izquierda */
+    border-bottom: 1px solid #ccc; /* Borde inferior de 1px sólido */
+}
+
+/* Estilos para encabezados de tabla */
+th {
+    background-color: #1f4287; /* Color de fondo para encabezados de tabla */
+    color: #fff; /* Color del texto para encabezados de tabla */
+}
+
+/* Estilos para enlaces */
+a {
+    color: #1f4287; /* Color del texto para enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilos para enlaces cuando están en estado de hover */
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* Variables CSS */
+:root {
+    --nuggets-blue: #0E2240; /* Color azul para los Nuggets */
+    --nuggets-yellow: #FEC524; /* Color amarillo para los Nuggets */
+    --nuggets-white: #FFFFFF; /* Color blanco para los Nuggets */
+}
+
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif; /* Fuente predeterminada para el cuerpo del documento */
+    color: var(--nuggets-white); /* Color del texto */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+}
+
+/* Estilos para enlaces */
+a {
+    color: blue; /* Color del texto para enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilos para enlaces cuando están en estado de hover */
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* Estilos para la información del equipo */
+.team-info {
+    border: 2px solid var(--nuggets-yellow); /* Borde de 2px sólido con color amarillo */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 20px; /* Relleno */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para la tabla de alineación del equipo */
+.team-lineup {
+    border-collapse: collapse; /* Colapsa los bordes de la tabla */
+    width: 100%; /* Ancho completo de la tabla */
+}
+
+/* Estilos para encabezados de tabla y celdas de tabla */
+.team-lineup th, .team-lineup td {
+    border: 1px solid var(--nuggets-yellow); /* Borde de 1px sólido con color amarillo */
+    padding: 8px; /* Relleno */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para la imagen del equipo */
+.team-image {
+    display: block; /* Elemento de bloque */
+    margin: 20px auto; /* Margen superior e inferior automático y margen izquierdo-derecho automático */
+    max-width: 100%; /* Ancho máximo del 100% */
+    border-radius: 10px; /* Borde redondeado */
+}
+
+/* Estilos para la lista de equipos relacionados */
+.related-teams {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin relleno */
+}
+
+/* Estilos para elementos de la lista de equipos relacionados */
+.related-teams li {
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+/* Estilos para enlaces de equipos relacionados */
+.related-link {
+    color: #006BB6; /* Color del texto para enlaces de equipos relacionados */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilos para enlaces de equipos relacionados cuando están en estado de hover */
+.related-link:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* Animación de escala */
+@keyframes scale {
+    0% {
+        transform: scale(1); /* Escala inicial */
+    }
+    50% {
+        transform: scale(1.05); /* Escala al 105% */
+    }
+    100% {
+        transform: scale(1); /* Escala de regreso */
+    }
+}
+
+/* Estilos para la imagen del equipo cuando está en estado de hover */
+.team-image:hover {
+    animation: scale 0.5s ease-in-out infinite; /* Aplica la animación de escala */
+}
+
+/* Estilos para el color del texto en el cuerpo del documento */
+body {
+    color: black; /* Color del texto */
+}
+
+/* Estilos para el nombre del equipo */
+.team-name {
+    color: var(--nuggets-yellow); /* Color del texto */
+}
+
+/* Estilos específicos para los Warriors */
+.warriors-body {
+    font-family: Arial, sans-serif; /* Fuente predeterminada para el cuerpo del documento */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+}
+
+.warriors-contenedor {
+    font-family: Arial, sans-serif; /* Fuente predeterminada para el contenedor */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+}
+
+/* Estilos para el enlace de regresar */
+.gsw-back-link {
+    color: blue; /* Color del enlace de regresar */
+    text-decoration: none; /* Sin subrayado */
+    margin-bottom: 20px; /* Margen inferior */
+    display: block; /* Elemento de bloque */
+}
+
+/* Estilos para el nombre del equipo */
+.gsw-team-name {
+    color: #006BB6; /* Color del nombre del equipo */
+}
+
+/* Estilos para la información del equipo */
+.gsw-team-info {
+    border: 2px solid #006BB6; /* Borde de 2px sólido con color azul */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 20px; /* Relleno */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para el título de la alineación */
+.gsw-lineup-title {
+    color: #006BB6; /* Color del título de la alineación */
+}
+
+/* Estilos para la tabla de alineación del equipo */
+.warriors--lineup {
+    border-collapse: collapse; /* Colapsa los bordes de la tabla */
+    width: 100%; /* Ancho completo de la tabla */
+}
+
+/* Estilos para encabezados de tabla y celdas de tabla */
+.warriors--lineup th, .warriors--lineup td {
+    border: 1px solid #006BB6; /* Borde de 1px sólido con color azul */
+    padding: 8px; /* Relleno */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para la imagen del equipo */
+.gsw-team-image {
+    display: block; /* Elemento de bloque */
+    margin: 20px auto; /* Margen superior e inferior automático y margen izquierdo-derecho automático */
+    max-width: 100%; /* Ancho máximo del 100% */
+    border-radius: 10px; /* Borde redondeado */
+}
+
+/* Estilos para la lista de equipos relacionados */
+.gsw-related-teams {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin relleno */
+}
+
+/* Estilos para elementos de la lista de equipos relacionados */
+.gsw-related-teams li {
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+/* Estilos para enlaces de equipos relacionados */
+.gsw-related-link {
+    color: #006BB6; /* Color del texto para enlaces de equipos relacionados */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilos para enlaces de equipos relacionados cuando están en estado de hover */
+.gsw-related-link:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* Estilos para Los Angeles Lakers */
+
+/* Estilos generales para el contenedor de la página */
+.lakers-container {
+    font-family: Arial, sans-serif;
+    color: #000000; /* Color del texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el enlace "Regresar" */
+.lakers-back-link {
+    color: #0066cc; /* Color del enlace "Regresar" */
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Estilos para el nombre del equipo */
+.lakers-team-name {
+    color: #ffd700; /* Color del nombre del equipo */
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Estilos para la información del equipo */
+.lakers-team-info {
+    border: 2px solid #ffd700; /* Color del borde de la información del equipo */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el título de la alineación */
+.lakers-lineup-title {
+    color: #ffd700; /* Color del título de la alineación */
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Estilos para la tabla de la alineación del equipo */
+.lakers-team-lineup {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Estilos para las celdas de la tabla de la alineación */
+.lakers-team-lineup th, .lakers-team-lineup td {
+    border: 1px solid #ffd700; /* Color del borde de la tabla de alineación */
+    padding: 8px;
+    text-align: center;
+}
+
+/* Estilos para la imagen del equipo */
+.lakers-team-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Estilos para la lista de equipos relacionados */
+.lakers-related-teams {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para los elementos de la lista de equipos relacionados */
+.lakers-related-teams li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces de equipos relacionados */
+.lakers-related-link {
+    color: #ffd700; /* Color del enlace de equipos relacionados */
+    text-decoration: none;
+}
+
+/* Estilos cuando se pasa el mouse sobre los enlaces de equipos relacionados */
+.lakers-related-link:hover {
+    text-decoration: underline;
+}
+
+/* Animación para la imagen del equipo */
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Animación de escala al pasar el mouse sobre la imagen del equipo */
+.lakers-team-image:hover {
+    animation: scale 0.5s ease-in-out infinite;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Contenedor principal */
+.boston-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Enlaces de regreso */
+.boston-back-link {
+    color: blue;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Nombre del equipo */
+.boston-team-name {
+    color: #006BB6; /* Azul Celtics */
+}
+
+/* Información del equipo */
+.boston-team-info {
+    border: 2px solid #006BB6; /* Borde azul Celtics */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Título de la alineación */
+.boston-lineup-title {
+    color: #006BB6; /* Azul Celtics */
+}
+
+/* Tabla de alineación */
+.boston-team-lineup {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.boston-team-lineup th, .boston-team-lineup td {
+    border: 1px solid #006BB6; /* Borde azul Celtics */
+    padding: 8px;
+    text-align: center;
+}
+
+/* Imagen de la alineación */
+.boston-team-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Equipos relacionados */
+.boston-related-teams {
+    list-style-type: none;
+    padding: 0;
+}
+
+.boston-related-teams li {
+    margin-bottom: 10px;
+}
+
+.boston-related-link {
+    color: #006BB6; /* Azul Celtics */
+    text-decoration: none;
+}
+
+.boston-related-link:hover {
+    text-decoration: underline;
+}
+
+/* Animación de escala */
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Animación de escala al pasar el mouse sobre la imagen */
+.boston-team-image:hover {
+    animation: scale 0.5s ease-in-out infinite;
+}
+
+/* Animación de cambio de color */
+@keyframes changeColor {
+    0% {
+        color: #006BB6; /* Azul Celtics */
+    }
+    50% {
+        color: #FF5733; /* Naranja */
+    }
+    100% {
+        color: #006BB6; /* Azul Celtics */
+    }
+}
+
+/* Animación de cambio de color al pasar el mouse sobre el nombre del equipo */
+.boston-team-name:hover {
+    animation: changeColor 1s infinite;
+}
+
